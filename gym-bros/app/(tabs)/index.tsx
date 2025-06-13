@@ -1,55 +1,30 @@
-// ExerciseList.tsx
+// Se o arquivo agora se chama: app/index.tsx
+
 import React, { useState } from 'react';
 import {
   View,
   Text,
   FlatList,
-  Image,
   TouchableOpacity,
   StyleSheet,
-  ImageSourcePropType,
 } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // ou react-native-vector-icons/Ionicons
+import { Ionicons } from '@expo/vector-icons';
 
-// Tipo para o exercício
 type Exercise = {
   id: string;
   title: string;
 };
 
 const exercises: Exercise[] = [
-  {
-    id: '1',
-    title: 'Bench Press (barbell)',
-  },
-  {
-    id: '2',
-    title: 'Incline Bench Press (dumbbell)',
-
-  },
-  {
-    id: '3',
-    title: 'Seated Fly (machine)',
-
-  },
-  {
-    id: '4',
-    title: 'Bench Press (dumbbell)',
-
-  },
-  {
-    id: '5',
-    title: 'Chest Press (machine)',
-
-  },
-  {
-    id: '6',
-    title: 'Push up',
-
-  },
+  { id: '1', title: 'Bench Press (barbell)' },
+  { id: '2', title: 'Incline Bench Press (dumbbell)' },
+  { id: '3', title: 'Seated Fly (machine)' },
+  { id: '4', title: 'Bench Press (dumbbell)' },
+  { id: '5', title: 'Chest Press (machine)' },
+  { id: '6', title: 'Push up' },
 ];
 
-const ExerciseList: React.FC = () => {
+const Index: React.FC = () => {
   const [favorites, setFavorites] = useState<string[]>([]);
 
   const toggleFavorite = (id: string) => {
@@ -88,7 +63,8 @@ const ExerciseList: React.FC = () => {
   );
 };
 
-export default ExerciseList;
+export default Index;
+
 
 // 💄 Estilos
 const styles = StyleSheet.create({
