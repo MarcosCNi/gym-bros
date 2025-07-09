@@ -24,7 +24,7 @@ const exercises: Exercise[] = [
   {
     id: '2355',
     name: 'arm slingers hanging bent knee legs',
-    gifUrl: 'https://d205bpvrqc9yn1.cloudfront.net/2355.gif',
+    gifUrl: 'https://gymvisual.com/10219-large_default/arm-slingers-hanging-bent-knee-legs.jpg',
     bodyPart: 'waist',
     equipment: 'body weight',
     target: 'abs',
@@ -32,7 +32,7 @@ const exercises: Exercise[] = [
   {
     id: '1525',
     name: 'bench press (barbell)',
-    gifUrl: 'https://d205bpvrqc9yn1.cloudfront.net/0025.gif',
+    gifUrl: 'https://s3assets.skimble.com/assets/2289478/image_iphone.jpg',
     bodyPart: 'chest',
     equipment: 'barbell',
     target: 'pectorals',
